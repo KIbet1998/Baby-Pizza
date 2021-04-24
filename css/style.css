@@ -18,11 +18,34 @@ li{
 
 .head{
     text-align: center;
-    /* margin-top: 3%; */
-    background-color: yellow;
+    background-image: url("../Baby-Pizza-Images/360_F_229732806_UnMDwlZUKZs8yYltp4ir9p0JwSWu7wLS.jpg");
+    background-repeat: cover;
     height: 300px;
+    color:yellow;
 }
 
 #MainHead{
+   padding-top: 3%;
+}
+
+#motto{
+    padding-top: 2%;
+}
+
+.About{
+    text-align: center;
+    padding-top: 3%;
+    background-color: white;
+    height: 300px;
+   
+}
+
+#menu{
+    text-align: center;
     
+    
+}
+
+.container{
+    background-color: beige;
 }
