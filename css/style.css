@@ -48,4 +48,10 @@ li{
 
 .container{
     background-color: beige;
+    text-align: center;
+    width: auto;
+}
+
+#order{
+    text-align: center;
 }
