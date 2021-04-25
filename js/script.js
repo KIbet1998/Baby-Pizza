@@ -1,5 +1,6 @@
 function orderPizza(){
     total();
+    
    
 
 }
@@ -18,5 +19,20 @@ function total(){
     document.getElementById("Total").innerHTML = total;
 
    
+
+}
+
+function notify(){
+    var alertMe = document.getElementById("delivery-selection").value;
+    if(alertMe){
+        if(alertMe == 1){
+            alert("thank you for shopping with us");
+        }
+        else{
+            var location = prompt("enter your location");
+            alert("Your order will be delivered to " + location +  " at an extra cost of Ksh 200");
+            
+        }
+    }
 
 }
