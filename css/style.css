@@ -80,3 +80,19 @@ li{
     margin-left: 45%;
     margin-top: 3%;
 }
+
+footer{
+    text-align: center;
+    margin-top: 3%;
+    background-color: beige;
+    height: 250px;
+}
+
+
+.contact{
+    padding-top: 5%;
+}
+
+#contactUs{
+    padding-top: 2%;
+}
