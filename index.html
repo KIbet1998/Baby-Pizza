@@ -62,26 +62,26 @@
 
             <select name="size" id="size" class="form-control my-3">
                 <option value="select-size">Select Pizza Size</option>
-                <option value="Large">Large</option>
-                <option value="Medium">Medium</option>
-                <option value="Small">Small</option>
+                <option value="1200">Large</option>
+                <option value="1000">Medium</option>
+                <option value="800">Small</option>
             </select>
 
             <input type="number" class="form-control my-3" placeholder="Select Quantity" id="quantity" />
 
             <select name="crust" id="crust" class="form-control my-3">
                 <option value="select-crust">Select Pizza Crust</option>
-                <option value="Crispy">Crispy</option>
-                <option value="Stuffed">Stuffed</option>
-                <option value="Gluten Free">Gluten Free</option>
+                <option value="250">Crispy</option>
+                <option value="200">Stuffed</option>
+                <option value="200">Gluten Free</option>
             </select>
 
             <select name="toppings" id="toppings" class="form-control my-3">
                 <option value="select-toppings">Select Pizza Toppings</option>
-                <option value="Onions">Onions</option>
-                <option value="Sausage">Sausage</option>
-                <option value="Bacon">Bacon</option>
-                <option value="Extra Cheese">Extra Cheese</option>
+                <option value="200">Onions</option>
+                <option value="150">Sausage</option>
+                <option value="150">Bacon</option>
+                <option value="150">Extra Cheese</option>
             </select>
 
             <input type="button" class="" value="order" onclick="orderPizza()" id="order" />
@@ -127,7 +127,7 @@
 
         <select name="delivery-selection" id="delivery-selection"  class="form-control my-3">
             <option value= 1 id="noDelivery">I don't want delivery</option>
-            <option value= 2 >I want delivery</option>
+            <option value= 2>I want delivery</option>
             <input type="submit" class="btn btn-success" onclick="notify()" value="Complete Order" id="complete" />
         </select>
     </div>
